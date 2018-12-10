@@ -17,12 +17,13 @@
     <div id="hero">
         <div id="nav_bar" uk-sticky>
             <div class="uk-grid-collapse uk-padding-small uk-child-width-expand@s" uk-grid>
-                <div class="uk-width-1-3@m">
+                <div class="uk-width-1-3@m logoS">
                     <img src="./assets/images/treelogo.png" alt="logo" class='logo' />
                     <p class="text-logo">FMH</p>
                 </div>
-                <div class="uk-width-2-3@m">
-                    <ul class="list">
+                <div class="uk-width-2-3@m barS">
+                    <i class="fa fa-bars uk-hidden@s canvas uk-align-center" uk-toggle="target: #offcanvas" aria-hidden="true"></i>
+                    <ul class="list uk-visible@s">
                         <a href="#pricing">
                             <li>Pricing</li>
                         </a>
@@ -41,13 +42,13 @@
 
         </div>
         <div class="headliner uk-text-center">
-            <p class="head_1"><span class="logo_1">F</span>armer's <span class="logo_1">M</span>arket <span class="logo_1">H</span>ouston</p>
-            <p class="head_2">Bring farm fresh organics to your mailbox!</p><br/>
+            <p class="head_1" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay:400"><span class="logo_1">F</span>armer's <span class="logo_1">M</span>arket <span class="logo_1">H</span>ouston</p>
+            <p class="head_2" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay:500">Bring farm fresh organics to your mailbox!</p><br/>
             <button class="uk-button-primary uk-button-large">Learn more</button>
         </div>
 
     </div>
-    <div class="g-color_1">
+    <div class="g-color_1" uk-scrollspy="cls:uk-animation-slide-top-medium; repeat: true; delay:500">
         <div id="title">
             <h1 class="market"><span class="text_color">O</span>ur market at <span class="text_color">FMH</span></h1>
         </div>
@@ -72,53 +73,53 @@
     </div>
     <div class="g-color_2">
         <div id="deliver_box" class="uk-width-auto" uk-grid>
-            <div class="uk-width-1-2">
+            <div class="uk-width-1-2"uk-scrollspy="cls:uk-animation-fade; repeat: true; delay:400">
                 <h4 class="deliverHeader">We deliver!</h4>
                 <p class="deliver_text">Why drive to a farmer market when the market can come to you!<br/> We deliver anywhere and anytime!</p>
             </div>
-            <div class="uk-width-1-5">
+            <div class="uk-width-1-5"uk-scrollspy="cls:uk-animation-fade; repeat: true; delay:500">
                 <img src="./assets/images/delivery.jpg" alt="delivery" class="truck" />
             </div>
         </div>
     </div>
-    <div class="g-color_1">
+    <div class="g-color_1"uk-scrollspy="cls:uk-animation-slide-top-medium; repeat: true; delay:500">
         <div id="m_title">
             <h3 class="mason_title"><span class="text_color">E</span>xplore our <span class="text_color">M</span>arkets</h3>
             <p>Check out our freshest organic produce from some of our merchants!</p>
         </div>
         <div class="uk-child-width-1-3@s uk-text-center" id="masonGrid" uk-grid="masonry: true">
-            <div class="uk-inline">
-                <div class="uk-card uk-card-default uk-card-body uk-height-small Mimage1"></div>
+            <div class="uk-inline uk-animation-toggle">
+                <div class="uk-card uk-card-default uk-card-body uk-height-small Mimage1 uk-animation-shake"></div>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-button">
                     <p>Boso Market</p>
                 </div>
             </div>
-            <div class="uk-inline">
-                <div class=" uk-card uk-card-default uk-card-body uk-height-medium Mimage2"></div>
+            <div class="uk-inline uk-animation-toggle">
+                <div class=" uk-card uk-card-default uk-card-body uk-height-medium Mimage2 uk-animation-shake"></div>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-button">
                     <p>Herb and Anna's Farm Market</p>
                 </div>
             </div>
-            <div class="uk-inline">
-                <div class="uk-card uk-card-default uk-card-body  uk-height-small Mimage3"></div>
+            <div class="uk-inline uk-animation-toggle">
+                <div class="uk-card uk-card-default uk-card-body  uk-height-small Mimage3 uk-animation-shake"></div>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-button">
                     <p>Greenery Market</p>
                 </div>
             </div>
-            <div class="uk-inline">
-                <div class=" uk-card uk-card-default uk-card-body uk-height-medium Mimage4"></div>
+            <div class="uk-inline uk-animation-toggle">
+                <div class=" uk-card uk-card-default uk-card-body uk-height-medium Mimage4 uk-animation-shake"></div>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-button">
                     <p>Sweet Farm Market</p>
                 </div>
             </div>
-            <div class="uk-inline">
-                <div class=" uk-card uk-card-default uk-card-body uk-height-small Mimage5"></div>
+            <div class="uk-inline uk-animation-toggle">
+                <div class=" uk-card uk-card-default uk-card-body uk-height-small Mimage5 uk-animation-shake"></div>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-button">
                     <p>Little Bean Market</p>
                 </div>
             </div>
-            <div class="uk-inline">
-                <div class=" uk-card uk-card-default uk-card-body uk-height-medium Mimage6"></div>
+            <div class="uk-inline uk-animation-toggle">
+                <div class=" uk-card uk-card-default uk-card-body uk-height-medium Mimage6 uk-animation-shake"></div>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-button">
                     <p>Uncle Tom Market</p>
                 </div>
@@ -126,7 +127,7 @@
         </div>
     </div>
 
-    <div id="merchant_box_1" class="uk-grid-small uk-text-center" uk-grid>
+    <div id="merchant_box_1" class="uk-grid-small uk-text-center" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay:500" uk-grid>
         <div class="uk-width-1-2 uk-text-right box_1">
             <div>
                 <img src="./assets/images/tomatoes.jpg" class="tomatoes" />
@@ -142,7 +143,7 @@
         </div>
     </div>
 
-    <div id="merchant_box_2" class="uk-grid-small uk-text-center" uk-grid>
+    <div id="merchant_box_2" class="uk-grid-small uk-text-center" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay:700" uk-grid>
         <div class="uk-width-1-2 uk-text-center text_2">
             <div>
                 <h4 class="organicHeader">100% organic and cage free</h4>
@@ -158,7 +159,7 @@
         </div>
     </div>
 
-    <div class="uk-width-auto" id="newsletter">
+    <div class="uk-width-auto" uk-scrollspy="cls:uk-animation-slide-top-medium; repeat: true; delay:500" id="newsletter">
         <form class="form uk-width-1-3 newsForm">
             <fieldset class="uk-fieldset">
                 <div>
@@ -176,7 +177,7 @@
 
         
     </div>
-    <div id="footer">
+    <div id="footer"uk-scrollspy="cls:uk-animation-fade; repeat: true; delay:600">
         <ul class="social-icons">
             <li><a href="#"><i class="fab fa-instagram"></a></i></li> 
             <li><a href="#"><i class="fab fa-facebook"></a></i></li>
@@ -188,6 +189,18 @@
         </div>
     </div>
     
+    <div id="offcanvas" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar uk-scroll uk-display-inline-block canvas">
+            <h1 class="uk-heading-bullet"><span class="logo_1">F</span>armer's <span class="logo_1">M</span>arket <span class="logo_1">H</span>ouston</p></h1>
+            <ul class="uk-padding links canvaslinks">
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#suppliers">Suppliers</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </ul>
+        </div>
+    </div>
 
     <!--scripts-->
         <script type="text/javascript" src="./uikit/dist/js/uikit.min.js"></script>

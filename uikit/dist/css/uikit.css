@@ -11837,6 +11837,7 @@ iframe.uk-cover {
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #d8ffc8;
+  width: 100%;
 }
 #nav_bar {
   background: rgba(0, 0, 51, 0.6);
@@ -12131,4 +12132,13 @@ body {
 }
 #footer .copyright {
   font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .logoS {
+    display: inline-block;
+    margin-left: 75%;
+  }
+  .barS {
+    display: inline-block;
+  }
 }
