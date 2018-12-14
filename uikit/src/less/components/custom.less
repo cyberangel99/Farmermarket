@@ -7,6 +7,9 @@
         ///###### Nav Bar ########
         #nav_bar {
             background: rgba(0, 0, 51, 0.6);
+            .list {
+                margin-top: 8px;
+            }
             .list a {
                 list-style: none;
                 margin: 0;
@@ -176,6 +179,9 @@
             .Mimage6 {
                 background: url("../../../../assets/images/redapples.jpg") center center no-repeat/cover;
             }
+            .uk-position-center {
+                left: 55%;
+            }
         }
         
         //###### merchant section #####
@@ -321,14 +327,47 @@
     }
 
     //#### Offcanvas ####
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 960px) {
+        .logoS {
+            width: 25%;
+        }
+        .barS {
+            width: 60%;
+        }
+        .truck {
+            display:none;
+        }
+        .tomatoes {
+            display:none;
+        }
+        .strawberries {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 640px) {
         .logoS {
             display: inline-block;
-            margin-left: 75%;
+            width:25%;
         }
         .barS {
             display: inline-block;
+            width: 7%;
+            margin-left: 64%;
+            padding-top: 5px;
         }
-
+        .truck {
+            display:none;
+        }
+        .tomatoes {
+            display:none;
+        }
+        .strawberries {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .logo {
+            margin:0px;
+        }
     }
     //add media query widths for pads and phones for div sections

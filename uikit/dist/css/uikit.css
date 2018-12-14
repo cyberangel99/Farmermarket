@@ -11842,6 +11842,9 @@ body {
 #nav_bar {
   background: rgba(0, 0, 51, 0.6);
 }
+#nav_bar .list {
+  margin-top: 8px;
+}
 #nav_bar .list a {
   list-style: none;
   margin: 0;
@@ -11997,6 +12000,9 @@ body {
 #masonGrid .Mimage6 {
   background: url("../../../assets/images/redapples.jpg") center center no-repeat / cover;
 }
+#masonGrid .uk-position-center {
+  left: 55%;
+}
 #merchant_box_1 {
   max-width: 1000px;
   margin: 10% auto 0 auto;
@@ -12133,12 +12139,46 @@ body {
 #footer .copyright {
   font-size: 14px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
+  .logoS {
+    width: 25%;
+  }
+  .barS {
+    width: 60%;
+  }
+  .truck {
+    display: none;
+  }
+  .tomatoes {
+    display: none;
+  }
+  .strawberries {
+    display: none;
+  }
+}
+@media only screen and (max-width: 640px) {
   .logoS {
     display: inline-block;
-    margin-left: 75%;
+    width: 25%;
   }
   .barS {
     display: inline-block;
+    width: 7%;
+    margin-left: 64%;
+    padding-top: 5px;
+  }
+  .truck {
+    display: none;
+  }
+  .tomatoes {
+    display: none;
+  }
+  .strawberries {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .logo {
+    margin: 0px;
   }
 }
