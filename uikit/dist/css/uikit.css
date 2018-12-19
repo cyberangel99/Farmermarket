@@ -11915,7 +11915,6 @@ body {
 #intro .intro_text {
   text-align: left;
   padding-top: 5%;
-  max-width: 700px;
 }
 #intro .logo_2 {
   text-align: center;
@@ -12155,6 +12154,15 @@ body {
   .strawberries {
     display: none;
   }
+  .tree {
+    margin-right: 10%;
+  }
+  .deliverHeader {
+    text-align: center;
+  }
+  .uk-overlay {
+    width: 25%;
+  }
 }
 @media only screen and (max-width: 640px) {
   .logoS {
@@ -12176,9 +12184,18 @@ body {
   .strawberries {
     display: none;
   }
+  .tree {
+    margin-right: 20%;
+  }
+  .deliverHeader {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 400px) {
   .logo {
     margin: 0px;
+  }
+  .deliverHeader {
+    text-align: center;
   }
 }
