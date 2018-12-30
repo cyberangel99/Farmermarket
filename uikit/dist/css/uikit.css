@@ -11859,7 +11859,6 @@ body {
 }
 .logo {
   max-height: 36px;
-  margin-left: 27px;
 }
 .text-logo {
   font-family: 'Oswald', sans-serif;
@@ -12016,7 +12015,6 @@ body {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   font-size: 35px;
-  margin-top: 75px;
 }
 #merchant_box_1 .tomatoes {
   box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);
@@ -12044,7 +12042,7 @@ body {
 #merchant_box_2 .text_2 {
   margin-top: 0;
   height: 254px;
-  width: 413px;
+  width: 49%;
 }
 #merchant_box_2 .box_2 {
   height: 239px;
@@ -12136,7 +12134,17 @@ body {
   text-align: center;
 }
 #footer .copyright {
-  font-size: 14px;
+  font-size: 17px;
+  font-weight: 300;
+}
+#offcanvas .logo_1 {
+  color: #ffb226;
+}
+#offcanvas .links {
+  list-style: none;
+}
+#offcanvas .canvas {
+  background-color: #505086;
 }
 @media only screen and (max-width: 960px) {
   .logoS {
@@ -12144,27 +12152,56 @@ body {
   }
   .barS {
     width: 60%;
+    text-align: right;
   }
   .truck {
-    display: none;
-  }
-  .tomatoes {
     display: none;
   }
   .strawberries {
     display: none;
   }
+  .tomatoes {
+    display: none;
+  }
   .tree {
     margin-right: 10%;
   }
-  .deliverHeader {
+  #deliver_box .deliverHeader {
+    text-align: center;
+  }
+  #deliver_box .deliver_text {
     text-align: center;
   }
   .uk-overlay {
     width: 25%;
   }
+  #merchant_box_1 .merchantHeader {
+    text-align: center;
+  }
+  #merchant_box_1 .merchant_text {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  #merchant_box_2 {
+    margin: 0;
+    padding: 15px;
+    max-height: none;
+  }
+  #merchant_box_2 .box_2 {
+    display: none;
+  }
+  #merchant_box_2 .text_2 {
+    width: 100%;
+    height: auto;
+  }
+  #merchant_box_2 .organicHeader {
+    width: 100%;
+  }
+  #merchant_box_2 .organic_text {
+    width: 100%;
+  }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 960px) and only screen and (max-width: 640px) {
   .logoS {
     display: inline-block;
     width: 25%;
@@ -12172,7 +12209,7 @@ body {
   .barS {
     display: inline-block;
     width: 7%;
-    margin-left: 64%;
+    text-align: right;
     padding-top: 5px;
   }
   .truck {
@@ -12187,15 +12224,74 @@ body {
   .tree {
     margin-right: 20%;
   }
-  .deliverHeader {
+  #deliver_box .deliverHeader {
     text-align: center;
   }
+  #deliver_box .deliver_text {
+    text-align: center;
+  }
+  #merchant_box_1 .merchantHeader {
+    text-align: center;
+  }
+  #merchant_box_1 .merchant_text {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  #merchant_box_2 {
+    margin: 0;
+    padding: 15px;
+    max-height: none;
+  }
+  #merchant_box_2 .box_2 {
+    display: none;
+  }
+  #merchant_box_2 .text_2 {
+    width: 100%;
+    height: auto;
+  }
+  #merchant_box_2 .organicHeader {
+    width: 100%;
+  }
+  #merchant_box_2 .organic_text {
+    width: 100%;
+  }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 960px) and only screen and (max-width: 640px) and only screen and (max-width: 400px) {
   .logo {
     margin: 0px;
   }
-  .deliverHeader {
+  #deliver_box .deliverHeader {
     text-align: center;
+  }
+  #deliver_box .deliver_text {
+    text-align: center;
+  }
+  #merchant_box_1 .merchant_text {
+    padding-bottom: 25px;
+  }
+  #merchant_box_2 {
+    margin: 0;
+    padding: 15px;
+    max-height: none;
+  }
+  #merchant_box_2 .box_2 {
+    display: none;
+  }
+  #merchant_box_2 .text_2 {
+    width: 100%;
+    height: auto;
+  }
+  #merchant_box_2 .organicHeader {
+    width: 100%;
+  }
+  #merchant_box_2 .organic_text {
+    width: 100%;
+  }
+  #merchant_box_1 .merchantHeader {
+    text-align: center;
+  }
+  #merchant_box_1 .merchant_text {
+    text-align: center;
+    padding-bottom: 20px;
   }
 }
