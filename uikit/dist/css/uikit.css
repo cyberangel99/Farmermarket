@@ -11873,6 +11873,7 @@ body {
   background: url("../../../assets/images/fruits3.jpg") center center no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
 }
 #hero .headliner {
   margin-top: 10%;
@@ -12150,6 +12151,9 @@ body {
   .logoS {
     width: 25%;
   }
+  #hero .head_1 {
+    font-size: 50px !important;
+  }
   .barS {
     width: 60%;
     text-align: right;
@@ -12212,6 +12216,9 @@ body {
     text-align: right;
     padding-top: 5px;
   }
+  #hero .head_1 {
+    font-size: 50px !important;
+  }
   .truck {
     display: none;
   }
@@ -12259,6 +12266,9 @@ body {
 @media only screen and (max-width: 960px) and only screen and (max-width: 640px) and only screen and (max-width: 400px) {
   .logo {
     margin: 0px;
+  }
+  #hero .head_1 {
+    font-size: 50px !important;
   }
   #deliver_box .deliverHeader {
     text-align: center;
