@@ -12151,6 +12151,9 @@ body {
   .logoS {
     width: 25%;
   }
+  #masonGrid .overlay {
+    padding: 5px;
+  }
   #hero .head_1 {
     font-size: 50px !important;
   }
@@ -12210,6 +12213,9 @@ body {
     display: inline-block;
     width: 25%;
   }
+  #masonGrid .overlay {
+    padding: 5px;
+  }
   .barS {
     display: inline-block;
     width: 7%;
@@ -12266,6 +12272,9 @@ body {
 @media only screen and (max-width: 960px) and only screen and (max-width: 640px) and only screen and (max-width: 400px) {
   .logo {
     margin: 0px;
+  }
+  #masonGrid .overlay {
+    padding: 5px;
   }
   #hero .head_1 {
     font-size: 50px !important;
