@@ -11984,21 +11984,27 @@ body {
 }
 #masonGrid .Mimage1 {
   background: url("../../../assets/images/tomatoes.jpg") center center no-repeat;
+  background-size: cover;
 }
 #masonGrid .Mimage2 {
   background: url("../../../assets/images/beans.jpg") center center no-repeat;
+  background-size: cover;
 }
 #masonGrid .Mimage3 {
   background: url("../../../assets/images/blackberry.jpg") center left no-repeat;
+  background-size: cover;
 }
 #masonGrid .Mimage4 {
   background: url("../../../assets/images/carrots.jpg") center center no-repeat;
+  background-size: cover;
 }
 #masonGrid .Mimage5 {
   background: url("../../../assets/images/strawberries.jpg") center center no-repeat;
+  background-size: cover;
 }
 #masonGrid .Mimage6 {
   background: url("../../../assets/images/redapples.jpg") center center no-repeat;
+  background-size: cover;
 }
 #masonGrid .uk-position-center {
   left: 55%;
